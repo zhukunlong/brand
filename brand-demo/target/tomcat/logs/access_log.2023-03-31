@@ -1,0 +1,17 @@
+0:0:0:0:0:0:0:1 - - [31/Mar/2023:14:35:24 +0800] "GET /brand-demo HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [31/Mar/2023:14:35:24 +0800] "GET /brand-demo/ HTTP/1.1" 200 903 http-bio-8080-exec-3 82
+0:0:0:0:0:0:0:1 - - [31/Mar/2023:14:35:24 +0800] "GET /brand-demo/login.css HTTP/1.1" 304 - http-bio-8080-exec-4 10
+0:0:0:0:0:0:0:1 - - [31/Mar/2023:14:35:24 +0800] "GET /brand-demo/javaweb.jpg HTTP/1.1" 304 - http-bio-8080-exec-5 8
+0:0:0:0:0:0:0:1 - - [31/Mar/2023:14:35:43 +0800] "GET /brand-demo/loginServlet?username=16605642425&password=123456&remember=1 HTTP/1.1" 200 912 http-bio-8080-exec-6 1340
+0:0:0:0:0:0:0:1 - - [31/Mar/2023:14:36:38 +0800] "GET /brand-demo/loginServlet?username=16605643435&password=pppppp HTTP/1.1" 200 912 http-bio-8080-exec-7 18
+0:0:0:0:0:0:0:1 - - [31/Mar/2023:14:36:56 +0800] "GET /brand-demo/loginServlet?username=16605643435&password=pppppp&remember=1 HTTP/1.1" 200 912 http-bio-8080-exec-9 1
+0:0:0:0:0:0:0:1 - - [31/Mar/2023:14:38:38 +0800] "GET /brand-demo/register.jsp HTTP/1.1" 200 1619 http-bio-8080-exec-1 9
+0:0:0:0:0:0:0:1 - - [31/Mar/2023:14:38:38 +0800] "GET /brand-demo/imgs/a.jpg HTTP/1.1" 200 903 http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [31/Mar/2023:14:38:38 +0800] "GET /brand-demo/register.css HTTP/1.1" 200 2720 http-bio-8080-exec-1 10
+0:0:0:0:0:0:0:1 - - [31/Mar/2023:14:40:21 +0800] "GET /brand-demo HTTP/1.1" 302 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [31/Mar/2023:14:40:21 +0800] "GET /brand-demo/ HTTP/1.1" 200 903 http-bio-8080-exec-3 77
+0:0:0:0:0:0:0:1 - - [31/Mar/2023:14:40:35 +0800] "GET /brand-demo/loginServlet?username=16605643435&password=pppppp HTTP/1.1" 200 912 http-bio-8080-exec-4 1411
+0:0:0:0:0:0:0:1 - - [31/Mar/2023:14:40:52 +0800] "GET /brand-demo/loginServlet?username=16605643435&password=pppppp&remember=1 HTTP/1.1" 200 912 http-bio-8080-exec-5 10
+0:0:0:0:0:0:0:1 - - [31/Mar/2023:14:45:00 +0800] "GET /brand-demo/loginServlet?username=16605642425&password=pppppp HTTP/1.1" 302 - http-bio-8080-exec-7 9
+0:0:0:0:0:0:0:1 - - [31/Mar/2023:14:45:00 +0800] "GET /brand-demo/selectAllServlet HTTP/1.1" 200 4189 http-bio-8080-exec-9 56
+0:0:0:0:0:0:0:1 - - [31/Mar/2023:14:45:29 +0800] "GET /brand-demo/addBrand.jsp HTTP/1.1" 200 626 http-bio-8080-exec-10 6

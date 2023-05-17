@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>欢迎注册</title>
+  <link href="register.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="form-div">
+  <div class="reg-content">
+    <h1>欢迎注册</h1>
+    <span>已有账号？</span> <a href="login.html">登录</a>
+  </div>
+  <form id="reg-form" action="/brand-demo/registerServlet" method="post">
+
+    <table>
+
+      <tr>
+        <td>用户名</td>
+        <td class="inputs">
+          <input name="username" type="text" id="username" placeholder=请输入手机号/姓名>
+          <br>
+          <span id="username_err" class="err_msg" style="display: none">用户名不太受欢迎</span>
+        </td>
+
+      </tr>
+
+      <tr>
+        <td>密码</td>
+        <td class="inputs">
+          <input name="password" type="password" id="password" placeholder=请输入6-12位密码>
+          <br>
+          <span id="password_err" class="err_msg" style="display: none">密码错误</span>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>验证码</td>
+        <td class="inputs">
+          <input name="checkCode" type="text" id="checkCode">
+          <img src="imgs/a.jpg">
+          <a href="#" id="changeImg">看不清？</a>
+        </td>
+      </tr>
+
+    </table>
+
+    <div class="buttons">
+      <input value="注 册" id="reg_btn" type="submit" onclick="on()">
+    </div>
+    <br class="clear">
+  </form>
+</div>
+<script>
+  function on() {
+    var username = document.getElementById("username");
+    var usernameText = username.value.trim();
+    var reg = /^\w{6,12}$/;
+    var p = reg.test(usernameText);
+    var zkl= document.getElementById("password_err");
+    if (!p) {
+     zkl.style.display='';
+     zkl.type="button"
+    }else {
+      zkl.type="submit"
+    }
+  }
+</script>
+</body>
+</html>
